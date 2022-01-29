@@ -1,0 +1,50 @@
+body{
+	background: url(circo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.bozo{
+	width: 50px;
+	height: 50px;
+}
+
+.bozo2{
+	width: 70px;
+	height: 70px;
+}
+
+.bozo3{
+	width: 100px;
+	height: 100px;
+}
+
+.bozolado1{
+	transform: scaleX(1);
+}
+.bozolado2{
+	transform: scaleX(-1);
+}
+.painel{
+	position: absolute;
+	width: 190px;
+	padding: 10px;
+	bottom: 0px;
+	left: 0px;
+	border-top: solid 1px #fff;
+	background-color: #fff;
+	opacity: 0.7;
+}
+.nariz{
+	float: left;
+}
+.cronometro{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h1{
+	color: white;
+}

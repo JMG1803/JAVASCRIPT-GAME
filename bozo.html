@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bozo</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="jogo.js"></script>
+
+</head>
+<body onresize="ajusteRedi()">
+
+
+	<div class="painel">
+		<div class="nariz">
+			<img id="v1" src="nariz.jpg" class="bozo">
+			<img id="v2" src="nariz.jpg" class="bozo">
+			<img id="v3" src="nariz.jpg" class="bozo">
+		</div>
+
+		<div class="cronometro">
+			opa falta: <span id="cronometro"></span>
+		</div>
+	</div>
+
+
+	<script >
+
+	document.getElementById('cronometro').innerHTML = tempo
+	var criaBozo = setInterval(function () {
+			randomica()
+		}, bozotempo)
+		
+	</script>
+
+</body>
+</html>
